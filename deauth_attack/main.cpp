@@ -55,6 +55,7 @@ struct Param {
                 else return false;
             }
         }
+        return true;
     }
 } param;
 
