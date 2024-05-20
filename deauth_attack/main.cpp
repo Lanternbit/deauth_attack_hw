@@ -87,7 +87,7 @@ int main(int argc, char* argv[])
 
     while (true) {
         executeCommand(command);
-        sleep(1); // Adjust sleep time as needed to avoid network disruption
+        sleep(1);
     }
 
     return 0;
